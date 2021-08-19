@@ -64,5 +64,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Devicons
     Plug 'ryanoasis/vim-devicons'    
 
-call plug#end()
+    "Telescope
+    Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lua/telescope.nvim'
+    call plug#end()
 
