@@ -22,8 +22,6 @@ source ~/.config/nvim/themes/airline.vim
 "Ranger file
 source ~/.config/nvim/plug-config/rnvimr.vim
 
-"Colorizer
-
 
 "Rainbow Parenthesis
 source ~/.config/nvim/plug-config/rainbow.vim
@@ -57,3 +55,6 @@ source ~/.config/nvim/plug-config/commentary.vim
 
 "Integrated terminal
 source ~/.config/nvim/plug-config/integrated-terminal.vim
+
+
+

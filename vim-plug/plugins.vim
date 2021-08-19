@@ -27,7 +27,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'junegunn/rainbow_parentheses.vim'
 
-    Plug 'norcalli/nvim-colorizer.lua'
 
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -61,5 +60,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     "Smooth scrolling
     Plug 'psliwka/vim-smoothie'
+
 call plug#end()
 
