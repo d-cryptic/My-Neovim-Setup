@@ -21,9 +21,9 @@
     "~/.config/nvim/utils/snips"
   ]
 
-}
+},
 
-// explorer
+//explorer
 {
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
@@ -32,7 +32,7 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   }
- }
+ },
 
  {
    "suggest.completionItemKindLabels": {
@@ -95,4 +95,15 @@
             }
         }
     }
+},
+{
+"initializationOptions": {
+  // ...
+  // This will re-index the file on buffer change which is definitely a performance hit. See if it works for you
+  "index": {
+    "onChange": true
+  },
+  // This is mandatory!
+  "highlight": { "lsRanges" : true }
+}
 }

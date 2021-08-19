@@ -56,5 +56,6 @@ source ~/.config/nvim/plug-config/commentary.vim
 "Integrated terminal
 source ~/.config/nvim/plug-config/integrated-terminal.vim
 
-
+"Nerdtree
+source ~/.config/nvim/plug-config/nerdtree.vim
 

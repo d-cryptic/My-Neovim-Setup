@@ -61,5 +61,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Smooth scrolling
     Plug 'psliwka/vim-smoothie'
 
+    "Devicons
+    Plug 'ryanoasis/vim-devicons'    
+
 call plug#end()
 
