@@ -64,5 +64,5 @@ cmap w!! w !sudo tee %
 
 :set ruler
 
-set scrolloff=10
+set scrolloff=20
 
